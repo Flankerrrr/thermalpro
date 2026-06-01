@@ -1,0 +1,29 @@
+# MATLAB 项目配置文件
+# 忽略以下文件和目录
+
+# MATLAB 生成文件
+*.asv
+*.m~
+*.mat
+*.fig
+*.mlx
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 输出目录（保留目录结构，忽略内容）
+output/*
+!output/.gitkeep
+
+# 数据目录（保留目录结构，忽略内容）
+data/*
+!data/.gitkeep
+
+# 配置文件（如包含敏感信息）
+config/*.mat
+
+# 临时文件
+*.tmp
+*.log
+软著/
